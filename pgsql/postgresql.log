@@ -48,4 +48,13 @@
 2025-11-18 02:34:58.994 CST [18512] 日志:  后台工作进程 "logical replication launcher" (PID 8636) 被异常 0xC000013A 终止
 2025-11-18 02:34:58.994 CST [18512] 提示:  关于对16进制值的描述， 参见C语言的引用文件 "ntstatus.h" 
 2025-11-18 02:34:58.994 CST [18512] 日志:  中断任何其它已激活的服务器进程
-^C
+^C2025-11-18 04:52:28.424 CST [23900] 日志:  正在启动 PostgreSQL 18.0 on x86_64-windows, compiled by msvc-19.44.35215, 64-bit
+2025-11-18 04:52:28.429 CST [23900] 日志:  正在监听IPv6地址"::1"，端口 54321
+2025-11-18 04:52:28.429 CST [23900] 日志:  正在监听IPv4地址"127.0.0.1"，端口 54321
+2025-11-18 04:52:28.515 CST [3820] 日志:  数据库系统中断；上一次的启动时间是在2025-11-18 02:34:58 CST
+2025-11-18 04:52:28.704 CST [3820] 日志:  数据库系统没有正确的关闭; 处于自动恢复状态中
+2025-11-18 04:52:28.708 CST [3820] 日志:  invalid record length at 0/17E6E30: expected at least 24, got 0
+2025-11-18 04:52:28.708 CST [3820] 日志:  不需要 redo
+2025-11-18 04:52:28.712 CST [18736] 日志:  checkpoint starting: end-of-recovery immediate wait
+2025-11-18 04:52:28.721 CST [18736] 日志:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.002 s, total=0.011 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/17E6E30, redo lsn=0/17E6E30
+2025-11-18 04:52:28.735 CST [23900] 日志:  数据库系统准备接受连接
