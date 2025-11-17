@@ -58,3 +58,26 @@
 2025-11-18 04:52:28.712 CST [18736] »’÷æ:  checkpoint starting: end-of-recovery immediate wait
 2025-11-18 04:52:28.721 CST [18736] »’÷æ:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.002 s, total=0.011 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/17E6E30, redo lsn=0/17E6E30
 2025-11-18 04:52:28.735 CST [23900] »’÷æ:   ˝æ›ø‚œµÕ≥◊º±∏Ω” ‹¡¨Ω”
+2025-11-18 04:57:28.721 CST [18736] »’÷æ:  checkpoint starting: time
+2025-11-18 04:57:32.073 CST [18736] »’÷æ:  checkpoint complete: wrote 33 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.322 s, sync=0.021 s, total=3.353 s; sync files=32, longest=0.002 s, average=0.001 s; distance=135 kB, estimate=135 kB; lsn=0/1808BC8, redo lsn=0/1808B70
+2025-11-18 05:07:28.074 CST [18736] »’÷æ:  checkpoint starting: time
+2025-11-18 05:07:29.705 CST [18736] »’÷æ:  checkpoint complete: wrote 16 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.611 s, sync=0.015 s, total=1.632 s; sync files=17, longest=0.002 s, average=0.001 s; distance=71 kB, estimate=128 kB; lsn=0/181AA08, redo lsn=0/181A9B0
+2025-11-18 05:12:28.706 CST [18736] »’÷æ:  checkpoint starting: time
+2025-11-18 05:12:30.337 CST [18736] »’÷æ:  checkpoint complete: wrote 16 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.611 s, sync=0.013 s, total=1.631 s; sync files=16, longest=0.002 s, average=0.001 s; distance=79 kB, estimate=123 kB; lsn=0/182E7F0, redo lsn=0/182E798
+2025-11-18 05:17:28.336 CST [18736] »’÷æ:  checkpoint starting: time
+2025-11-18 05:17:28.651 CST [18736] »’÷æ:  checkpoint complete: wrote 3 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.303 s, sync=0.004 s, total=0.315 s; sync files=4, longest=0.002 s, average=0.001 s; distance=16 kB, estimate=113 kB; lsn=0/1832A80, redo lsn=0/1832A28
+2025-11-18 05:22:28.651 CST [18736] »’÷æ:  checkpoint starting: time
+2025-11-18 05:22:28.759 CST [18736] »’÷æ:  checkpoint complete: wrote 1 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.101 s, sync=0.001 s, total=0.108 s; sync files=1, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=102 kB; lsn=0/1833B40, redo lsn=0/1833AE8
+2025-11-18 05:26:28.669 CST [6804] ÈîôËØØ:  null value in column "id" of relation "mfc_verfication_records" violates not-null constraint
+2025-11-18 05:26:28.669 CST [6804] ËØ¶ÁªÜ‰ø°ÊÅØ:  Â§±Ë¥•, Ë°åÂåÖÂê´(null, MFC1, 60, 58, 1, 1).
+2025-11-18 05:26:28.669 CST [6804] ËØ≠Âè•:  INSERT INTO "public"."mfc_verfication_records" ("mfc_name", "setpoint", "actual_setpoint", "point_amount", "point_number") VALUES ('MFC1', '60', '58', 1, 1) RETURNING *
+2025-11-18 05:27:28.759 CST [18736] »’÷æ:  checkpoint starting: time
+2025-11-18 05:27:32.814 CST [18736] »’÷æ:  checkpoint complete: wrote 40 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.030 s, sync=0.018 s, total=4.056 s; sync files=32, longest=0.002 s, average=0.001 s; distance=210 kB, estimate=210 kB; lsn=0/18683B8, redo lsn=0/1868328
+2025-11-18 05:37:28.815 CST [18736] »’÷æ:  checkpoint starting: time
+2025-11-18 05:37:30.351 CST [18736] »’÷æ:  checkpoint complete: wrote 15 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.514 s, sync=0.014 s, total=1.537 s; sync files=16, longest=0.002 s, average=0.001 s; distance=71 kB, estimate=196 kB; lsn=0/187A340, redo lsn=0/187A2E8
+2025-11-18 05:37:41.090 CST [12588] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-11-18 05:37:41.090 CST [8892] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-11-18 05:37:41.090 CST [21052] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
