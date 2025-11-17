@@ -1,0 +1,51 @@
+2025-11-18 02:30:39.501 CST [6584] 日志:  正在启动 PostgreSQL 18.0 on x86_64-windows, compiled by msvc-19.44.35215, 64-bit
+2025-11-18 02:30:39.506 CST [6584] 日志:  正在监听IPv6地址"::1"，端口 54321
+2025-11-18 02:30:39.506 CST [6584] 日志:  正在监听IPv4地址"127.0.0.1"，端口 54321
+2025-11-18 02:30:39.590 CST [4056] 日志:  数据库上次关闭时间为 2025-11-18 01:09:27 CST
+2025-11-18 02:30:39.607 CST [6584] 日志:  数据库系统准备接受连接
+2025-11-18 02:30:40.862 CST [6584] 日志:  后台工作进程 "logical replication launcher" (PID 18636) 被异常 0xC000013A 终止
+2025-11-18 02:30:40.862 CST [6584] 提示:  关于对16进制值的描述， 参见C语言的引用文件 "ntstatus.h" 
+2025-11-18 02:30:40.862 CST [6584] 日志:  中断任何其它已激活的服务器进程
+2025-11-18 02:30:40.867 CST [6584] 日志:  接收到快速 (fast) 停止请求
+^C2025-11-18 02:31:02.985 CST [18512] 日志:  正在启动 PostgreSQL 18.0 on x86_64-windows, compiled by msvc-19.44.35215, 64-bit
+2025-11-18 02:31:02.990 CST [18512] 日志:  正在监听IPv6地址"::1"，端口 54321
+2025-11-18 02:31:02.990 CST [18512] 日志:  正在监听IPv4地址"127.0.0.1"，端口 54321
+2025-11-18 02:31:03.064 CST [1840] 日志:  数据库系统中断；上一次的启动时间是在2025-11-18 02:30:39 CST
+2025-11-18 02:31:03.225 CST [1840] 日志:  数据库系统没有正确的关闭; 处于自动恢复状态中
+2025-11-18 02:31:03.227 CST [1840] 日志:  invalid record length at 0/17E6C58: expected at least 24, got 0
+2025-11-18 02:31:03.227 CST [1840] 日志:  不需要 redo
+2025-11-18 02:31:03.232 CST [3352] 日志:  checkpoint starting: end-of-recovery immediate wait
+2025-11-18 02:31:03.241 CST [3352] 日志:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.002 s, total=0.012 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/17E6C58, redo lsn=0/17E6C58
+2025-11-18 02:31:03.256 CST [18512] 日志:  数据库系统准备接受连接
+2025-11-18 02:34:16.662 CST [13660] 鏃ュ織:  鏃犳硶浠庡鎴风鑾峰緱鏁版嵁: An existing connection was forcibly closed by the remote host.
+	
+2025-11-18 02:34:29.074 CST [18512] 日志:  后台工作进程 "logical replication launcher" (PID 20640) 被异常 0xC000013A 终止
+2025-11-18 02:34:29.074 CST [18512] 提示:  关于对16进制值的描述， 参见C语言的引用文件 "ntstatus.h" 
+2025-11-18 02:34:29.074 CST [18512] 日志:  中断任何其它已激活的服务器进程
+2025-11-18 02:34:29.090 CST [18512] 日志:  所有的服务器进程被中止; 重新初始化
+2025-11-18 02:34:29.175 CST [15516] 日志:  数据库系统中断；上一次的启动时间是在2025-11-18 02:31:03 CST
+2025-11-18 02:34:29.310 CST [15516] 日志:  数据库系统没有正确的关闭; 处于自动恢复状态中
+2025-11-18 02:34:29.313 CST [15516] 日志:  redo 在 0/17E6CD0 开始
+2025-11-18 02:34:29.313 CST [15516] 日志:  invalid record length at 0/17E6D08: expected at least 24, got 0
+2025-11-18 02:34:29.313 CST [15516] 日志:  redo done at 0/17E6CD0 system usage: CPU:用户：0.00 s，系统：0.00 s，已用时间：0.00 s
+2025-11-18 02:34:29.317 CST [22152] 日志:  checkpoint starting: end-of-recovery immediate wait
+2025-11-18 02:34:29.324 CST [22152] 日志:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.002 s, total=0.009 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/17E6D08, redo lsn=0/17E6D08
+2025-11-18 02:34:29.338 CST [18512] 日志:  数据库系统准备接受连接
+2025-11-18 02:34:52.763 CST [21832] 鏃ュ織:  鏃犳硶浠庡鎴风鑾峰緱鏁版嵁: An existing connection was forcibly closed by the remote host.
+	
+2025-11-18 02:34:58.066 CST [18512] 日志:  后台工作进程 "logical replication launcher" (PID 4504) 被异常 0xC000013A 终止
+2025-11-18 02:34:58.066 CST [18512] 提示:  关于对16进制值的描述， 参见C语言的引用文件 "ntstatus.h" 
+2025-11-18 02:34:58.067 CST [18512] 日志:  中断任何其它已激活的服务器进程
+2025-11-18 02:34:58.083 CST [18512] 日志:  所有的服务器进程被中止; 重新初始化
+2025-11-18 02:34:58.170 CST [5164] 日志:  数据库系统中断；上一次的启动时间是在2025-11-18 02:34:29 CST
+2025-11-18 02:34:58.302 CST [5164] 日志:  数据库系统没有正确的关闭; 处于自动恢复状态中
+2025-11-18 02:34:58.305 CST [5164] 日志:  redo 在 0/17E6D80 开始
+2025-11-18 02:34:58.305 CST [5164] 日志:  invalid record length at 0/17E6DB8: expected at least 24, got 0
+2025-11-18 02:34:58.305 CST [5164] 日志:  redo done at 0/17E6D80 system usage: CPU:用户：0.00 s，系统：0.00 s，已用时间：0.00 s
+2025-11-18 02:34:58.309 CST [8324] 日志:  checkpoint starting: end-of-recovery immediate wait
+2025-11-18 02:34:58.316 CST [8324] 日志:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.002 s, total=0.009 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/17E6DB8, redo lsn=0/17E6DB8
+2025-11-18 02:34:58.331 CST [18512] 日志:  数据库系统准备接受连接
+2025-11-18 02:34:58.994 CST [18512] 日志:  后台工作进程 "logical replication launcher" (PID 8636) 被异常 0xC000013A 终止
+2025-11-18 02:34:58.994 CST [18512] 提示:  关于对16进制值的描述， 参见C语言的引用文件 "ntstatus.h" 
+2025-11-18 02:34:58.994 CST [18512] 日志:  中断任何其它已激活的服务器进程
+^C
